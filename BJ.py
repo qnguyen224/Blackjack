@@ -4,13 +4,13 @@ deck = [2, 3, 4, 5, 6, 7, 8, 9, 10, 'K', 'Q', 'J', 'A']
 
 def convert_suit(hand):
     """Takes input list, converts face cards into int values, and returns the list"""
-    ace_count = 0
+    ace_count = False
     for i in range(len(hand)):
         if hand[i] in ('K', 'Q', 'J'):
             hand[i] = 10
         if hand[i] == 'A' and not ace_count:
             hand[i] = 11
-            ace_count += 1
+            ace_count = True
         elif ace_count and hand[i] == 'A':
             hand[i] = 1
     return hand
@@ -24,12 +24,21 @@ def count_total(hand):
     return total
 
 
+def convert_ace(hand):
+    """Converts all the aces in hand to 1"""
+    hand = convert_suit(hand)
+    for i in range(len(hand)):
+        if hand[i] == 11:
+            hand[i] = 1
+    return hand
+
+
 def game_start(gambler, dealer):
     g_converted = convert_suit(gambler[:])  # Convert suits in Gambler's hand
     d_converted = convert_suit(dealer[:])   # Convert suits in Dealer's hand
     g_total = count_total(g_converted)    # Gambler's total
     d_total = count_total(d_converted)    # Dealer's total
-
+    soft = True     # if g_total is <= 21 and there's an Ace in hand, it is a soft number
     print(f"The dealer's hand is [X, {dealer[1]}]")
 
     while True:
@@ -41,7 +50,12 @@ def game_start(gambler, dealer):
             gambler.append(choice(deck))     # appends a random card to gambler's hand
             g_converted.append(gambler[-1])  # appends the last index of p2 to p2_converted
             g_total = count_total(convert_suit(g_converted))  # calculates total value of gambler's hand
-            if g_total > 21:
+            if g_total > 21 and 'A' in gambler and soft:
+                g_total = count_total(convert_ace(g_converted))
+                soft = False
+            elif gambler[-1] == 'A' and g_total < 21:
+                g_total += 1
+            elif g_total >= 21:
                 break
         else:
             if d_total >= 17:           # dealer stands on 17 or greater

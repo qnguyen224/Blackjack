@@ -4,9 +4,13 @@ from BJ import game_start
 Gambler = Player()
 Dealer = Player()
 
+Dealer.hand = ['A', 3]
+Gambler.hand = ['A', 'A']
+
 if __name__ == "__main__":
     while True:
         result = game_start(Gambler.new_hand(), Dealer.new_hand())
+        # result = game_start(Gambler.hand, Dealer.hand)
         if result:
             Gambler.win += 1
         else:
