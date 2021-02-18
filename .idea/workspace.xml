@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d434b47-7401-4b82-aa17-e8d3167a8445" name="Default Changelist" comment="BJ separated into 3 classes&#10;Ace 1 or 11 has not been implemented.">
+    <list default="true" id="0d434b47-7401-4b82-aa17-e8d3167a8445" name="Default Changelist" comment="2-17-21 Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BJ.py" beforeDir="false" afterPath="$PROJECT_DIR$/BJ.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
@@ -127,7 +127,7 @@
       <workItem from="1613424566929" duration="3785000" />
       <workItem from="1613469589098" duration="2170000" />
       <workItem from="1613520874662" duration="3109000" />
-      <workItem from="1613584849727" duration="11572000" />
+      <workItem from="1613584849727" duration="16686000" />
     </task>
     <task id="LOCAL-00001" summary="BJ separated into 3 classes&#10;Ace 1 or 11 has not been implemented.">
       <created>1613615730751</created>
@@ -143,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613616323183</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2-17-21 Update">
+      <created>1613624056011</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613624056011</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +170,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BJ separated into 3 classes&#10;Ace 1 or 11 has not been implemented." />
-    <option name="LAST_COMMIT_MESSAGE" value="BJ separated into 3 classes&#10;Ace 1 or 11 has not been implemented." />
+    <MESSAGE value="2-17-21 Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="2-17-21 Update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -177,6 +185,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/blackjack$Main.coverage" NAME="Main Coverage Results" MODIFIED="1613623658694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/blackjack$Main.coverage" NAME="Main Coverage Results" MODIFIED="1613628842076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
