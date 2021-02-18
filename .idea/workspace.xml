@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d434b47-7401-4b82-aa17-e8d3167a8445" name="Default Changelist" comment="" />
+    <list default="true" id="0d434b47-7401-4b82-aa17-e8d3167a8445" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BJ.py" beforeDir="false" afterPath="$PROJECT_DIR$/BJ.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,29 +18,37 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1o8o7GuelefpZvu2pVsf3aHcCmR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Main.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
-    <configuration name="BJ" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Main">
+    <configuration name="BJ" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="blackjack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\dante\anaconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -46,12 +58,63 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="blackjack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\dante\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Player" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="blackjack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\dante\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Player.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.BJ" />
+      <item itemvalue="Python.Main" />
+      <item itemvalue="Python.Player" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.BJ" />
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Player" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -62,49 +125,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612677410157</updated>
+      <workItem from="1613424566929" duration="3785000" />
+      <workItem from="1613469589098" duration="2170000" />
+      <workItem from="1613520874662" duration="3109000" />
+      <workItem from="1613584849727" duration="5447000" />
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="1899" height="223" key="GridCell.Tab.0.bottom" timestamp="1612906938727">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1501" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1600.126.1600.900@-1600.126.1600.900" timestamp="1612903489674" />
-    <state width="1899" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1600.126.1600.900@0.0.1920.1080" timestamp="1612906938727" />
-    <state width="1899" height="223" key="GridCell.Tab.0.center" timestamp="1612906938726">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1501" height="223" key="GridCell.Tab.0.center/0.0.1920.1080/-1600.126.1600.900@-1600.126.1600.900" timestamp="1612903489674" />
-    <state width="1899" height="223" key="GridCell.Tab.0.center/0.0.1920.1080/-1600.126.1600.900@0.0.1920.1080" timestamp="1612906938726" />
-    <state width="1899" height="223" key="GridCell.Tab.0.left" timestamp="1612906938726">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1501" height="223" key="GridCell.Tab.0.left/0.0.1920.1080/-1600.126.1600.900@-1600.126.1600.900" timestamp="1612903489674" />
-    <state width="1899" height="223" key="GridCell.Tab.0.left/0.0.1920.1080/-1600.126.1600.900@0.0.1920.1080" timestamp="1612906938726" />
-    <state width="1899" height="223" key="GridCell.Tab.0.right" timestamp="1612906938727">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1501" height="223" key="GridCell.Tab.0.right/0.0.1920.1080/-1600.126.1600.900@-1600.126.1600.900" timestamp="1612903489674" />
-    <state width="1899" height="223" key="GridCell.Tab.0.right/0.0.1920.1080/-1600.126.1600.900@0.0.1920.1080" timestamp="1612906938727" />
-    <state width="1899" height="363" key="GridCell.Tab.1.bottom" timestamp="1612895732128">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1600.126.1600.900@0.0.1920.1080" timestamp="1612895732128" />
-    <state width="1899" height="363" key="GridCell.Tab.1.center" timestamp="1612895732128">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="363" key="GridCell.Tab.1.center/0.0.1920.1080/-1600.126.1600.900@0.0.1920.1080" timestamp="1612895732128" />
-    <state width="1899" height="363" key="GridCell.Tab.1.left" timestamp="1612895732128">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="363" key="GridCell.Tab.1.left/0.0.1920.1080/-1600.126.1600.900@0.0.1920.1080" timestamp="1612895732128" />
-    <state width="1899" height="363" key="GridCell.Tab.1.right" timestamp="1612895732128">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="363" key="GridCell.Tab.1.right/0.0.1920.1080/-1600.126.1600.900@0.0.1920.1080" timestamp="1612895732128" />
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1612916586975">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1600.126.1600.900@0.0.1920.1080" timestamp="1612916586975" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/blackjack$Main.coverage" NAME="Main Coverage Results" MODIFIED="1613615600159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
