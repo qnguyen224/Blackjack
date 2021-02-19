@@ -8,7 +8,7 @@ ties = 0
 if __name__ == "__main__":
     while True:
         result = game_start(Gambler.new_hand(), Dealer.new_hand())
-        # result = game_start(Gambler.hand, Dealer.hand)
+        # result = game_start(Gambler, Dealer)
         if result == 2:
             Gambler.win += 1
         elif result == 1:

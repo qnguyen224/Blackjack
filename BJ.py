@@ -65,7 +65,8 @@ def game_start(gambler, dealer):
             if g_total > 21 and 'A' in gambler and gambler_soft:
                 g_total = count_total(convert_ace(g_copy))
                 gambler_soft = False
-            elif g_total > 21:
+
+            if g_total >= 21:
                 break
         else:
             if d_total >= 17:           # dealer stands on soft 17 or greater
