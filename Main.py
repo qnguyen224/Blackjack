@@ -8,7 +8,6 @@ ties = 0
 if __name__ == "__main__":
     while True:
         result = game_start(Gambler.new_hand(), Dealer.new_hand())
-        # result = game_start(Gambler, Dealer)
         if result == 2:
             Gambler.win += 1
         elif result == 1:
@@ -22,6 +21,6 @@ if __name__ == "__main__":
         else:
             break
 
-    print(f"\nGambler's wins: {Gambler.win}")
-    print(f"Dealer's wins: {Dealer.win}")
+    print(f"\nDealer's wins: {Dealer.win}")
+    print(f"Gambler's wins: {Gambler.win}")
     print(f"Ties : {ties}")

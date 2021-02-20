@@ -11,7 +11,3 @@ class Player:
         self.hand.clear()
         self.hand += [choice(deck) for i in range(2)]
         return self.hand
-
-
-if __name__ == "__main__":
-    print("Hello World!")
