@@ -25,12 +25,24 @@ def count_total(hand):
 
 
 def convert_ace(hand):
-    """Converts all the aces in hand to 1"""
+    """Converts all the aces in hand to 1 if hand total > 21 and is soft hand"""
     hand = convert_suit(hand)
     for i in range(len(hand)):
         if hand[i] == 11:
             hand[i] = 1
     return hand
+
+
+def deal_card(hand, copy, total):
+    """deals a random card from deck to hand and updates total value"""
+    hand.append(choice(deck))  # appends a random card to gambler's hand
+    copy.append(hand[-1])  # appends the last index of gambler to g_copy
+    if total >= 11 and hand[-1] == 'A':
+        copy[-1] = 1
+        total = count_total(copy)
+    else:
+        total = count_total(convert_suit(copy))  # calculates total value of gambler's hand
+    return total
 
 
 def game_start(gambler, dealer):
@@ -51,13 +63,7 @@ def game_start(gambler, dealer):
         print(f"Your cards are: {gambler} with a value of {g_total}")
         ans = input("Do you wish to Draw or Stand D/S: ")
         if ans.upper() == 'D':
-            gambler.append(choice(deck)) # appends a random card to gambler's hand
-            g_copy.append(gambler[-1])  # appends the last index of gambler to g_copy
-            if g_total >= 11 and gambler[-1] == 'A':
-                g_copy[-1] = 1
-                g_total = count_total(g_copy)
-            else:
-                g_total = count_total(convert_suit(g_copy))  # calculates total value of gambler's hand
+            g_total = deal_card(gambler, g_copy, g_total)
             if g_total > 21 and 'A' in gambler and gambler_soft:
                 g_total = count_total(convert_ace(g_copy))
                 gambler_soft = False
@@ -68,14 +74,7 @@ def game_start(gambler, dealer):
                 break
             else:
                 while d_total < 17:     # dealer continues to draw until bust or >= 17
-                    dealer.append(choice(deck))
-                    d_copy.append(dealer[-1])
-                    if d_total >= 11 and dealer[-1] == 'A':
-                        d_copy[-1] = 1
-                        d_total = count_total(d_copy)
-                    else:
-                        d_total = count_total(convert_suit(d_copy))
-
+                    d_total = deal_card(dealer, d_copy, d_total)
                     if d_total > 21 and 'A' in dealer and dealer_soft:
                         d_total = count_total(convert_ace(d_copy))
                         dealer_soft = False
