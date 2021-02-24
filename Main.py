@@ -21,6 +21,4 @@ if __name__ == "__main__":
         else:
             break
 
-    print(f"\nDealer's wins: {Dealer.win}")
-    print(f"Gambler's wins: {Gambler.win}")
-    print(f"Ties : {ties}")
+    print(f"\nDealer's wins: {Dealer.win}\nGambler's wins: {Gambler.win}\nTies : {ties}")
